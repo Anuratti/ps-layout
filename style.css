@@ -1,0 +1,211 @@
+body{
+	 background-image: linear-gradient(to top, #464545 0%, #B0AEAE 100%);
+	 font-family: 'PT Sans Caption', sans-serif;
+}
+
+h4{
+	margin-top: 20px;
+}
+
+/* main container */
+.container{
+	text-align: justify;	
+}
+
+.row{
+	margin-top:30px;
+}
+
+.col-md-10{
+	background-color: #C0BDBD;
+}
+
+img{
+	width:100%;
+	max-width: 1140px;
+}
+
+
+/* circle img style */
+.circ{
+ width: 150px;
+ height: 150px;
+ margin-left: 20%;
+ opacity: 0.9;
+}
+
+.circ:hover{
+	opacity: 1;
+}
+
+/* paddings for logo and footer bg-imgs */
+.pad{
+	padding-left: 0;
+    padding-right: 0;
+}
+
+.logo, .footer{
+	padding:0;
+	margin:0;
+	position:relative;	
+}
+
+/* text on logo image style */
+#header{ 
+ 	font-size: 48px;
+ 	color:#fff;
+ 	font-family: 'Berkshire Swash', cursive;
+    position:absolute;
+	top:32%;
+	left:3%;
+	margin-left: 0px;
+     -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+     -o-transition: all 1s ease;
+     -ms-transition: all 1s ease;
+     transition: all 1s ease;
+}
+
+#header:hover{
+	margin-left:-10px;
+	color:#FDFACC;
+}
+
+#header-p{
+font-size: 24px;
+ 	color:#fff;
+    position:absolute;
+	top:45%;
+	left:12%;
+	padding: 10px;
+}
+.logo-text{
+	position:absolute;
+	top:30%;
+	left:65%;
+	-webkit-transform: rotate(-3deg);
+	font-size: 32px;	
+}
+
+/* animated card style */
+.bgdiv{
+	width: 280px;
+	height: 280px;
+	position:relative;
+	background-image: url("depth.png");	
+}
+
+.divbox{
+	position:absolute;
+	top:70px;
+	left:70px;
+	width: 140px;
+	height: 140px;
+	transform-style: preserve-3d;
+	transition: all 2s ease;
+}
+
+.divbox:hover{
+	transform:rotateY(180deg);
+}
+
+.divbox img{
+	width:100%;
+}
+
+.divbox .front{
+	position: absolute;
+	top:0;
+	left:0;
+	backface-visibility:hidden;
+    width: 100%;
+    height:100%;
+}
+
+.divbox .back{
+	position: absolute;
+	top:0;
+	left:0;
+	backface-visibility:hidden;
+    width: 100%;
+    height:100%;
+    transform:rotateY(180deg);
+}
+/* end animated card style */
+
+
+/* custom list group style */
+.list-group-item{
+	background-color: transparent;
+	border:none;
+	color:#fff;
+	transition: all .3s ease;
+}
+
+.list-group-item:hover{
+	cursor: pointer;
+	color:#DBDADA;
+	margin-left:-10px;
+	text-shadow: -4px 4px 1px rgba(0, 0, 0, 0.8);
+}
+	
+/* content img style */	
+.img-container{
+	overflow:hidden;
+}
+.imghover{
+	transition: all 1s ease-in-out;
+}
+
+.imghover:hover{
+	transform: scale(1.1) rotate(5deg);
+
+}
+
+.imghover2{
+	transition: all 1s ease-in-out;
+}
+
+.imghover2:hover{
+	transform: scale(1.1) rotate(-5deg);
+}
+
+/* Footer style */
+#foot{
+	position:absolute;
+	top:75%;
+	left:40%;
+	color:#D3D3D3;	
+}
+
+
+.socials{
+	position:absolute;
+	top:50%;
+	left:15%;
+	color:#D3D3D3;
+}
+
+.footext{
+	position:absolute;
+	top:47%;
+	left:62%;
+	color:#D3D3D3;
+	font-size: 15px;
+}
+
+.list-group-item-footer{
+	background-color: transparent;
+	border:none;
+	padding:3px;
+	list-style: none;
+}
+
+i{
+	padding-left: 30px;
+}
+
+i:hover{
+	color:#fff;
+	cursor: pointer;
+}
